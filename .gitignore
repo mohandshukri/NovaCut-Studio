@@ -1,0 +1,34 @@
+# Visual Studio & MSBuild
+.vs/
+obj/
+bin/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.tlog
+*.log
+
+# Python & AI Sidecar Cache
+__pycache__/
+*.pyc
+CapCutVS_AI/*.pth
+CapCutVS_AI/*.bin
+CapCutVS_AI/*.gguf
+CapCutVS_AI/*.mp4
+CapCutVS_AI/*.png
+CapCutVS_AI/*.wav
+CapCutVS_AI/tmp_*
+ai_config.json
+
+# User Runtime Folders
+NovaCut_Sounds/
+CapCutVS_Drafts/
+CapCutVS_Proxies/
+CapCutVS_RenderQueue/
+CapCutVS_BatchExport/
